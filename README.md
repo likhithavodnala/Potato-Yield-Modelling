@@ -1,4 +1,4 @@
-[README_results_based.md](https://github.com/user-attachments/files/33398336/README_results_based.md)
+[README_results_based_updated.md](https://github.com/user-attachments/files/33398651/README_results_based_updated.md)
 # Potato Yield Modelling Using Weather Data — Mehsana, Gujarat
 
 ## Project overview
@@ -46,18 +46,6 @@ The following values are copied from `model_comparison_results.csv`.
 **Interpretation:** MLR is the best-performing model in this comparison. It has the highest reported R² (0.59) and the lowest RMSE (1.231) and MAE (0.948) among the six models. XGBoost and KNN are tied at the displayed R² of 0.45, but their error values differ. Random Forest has a lower MAE than XGBoost, KNN and SVR, despite its lower R². This shows why model quality should be assessed using more than one metric.
 
 The `**` suffix attached to R² in the CSV has been omitted in the table for readability; the CSV does not define the meaning of that suffix. Do not interpret it as a significance result unless the notebook explains it.
-
-## Features selected by the reported best model
-
-The MLR row in `model_comparison_results.csv` lists five selected features:
-
-- Wind speed (WS) for SMW 49
-- Wind speed (WS) for SMW 52
-- Wind speed (WS) for SMW 1
-- Minimum temperature (MINT) for SMW 43
-- Lag-1 yield anomaly
-
-These results suggest that the model found useful predictive information in wind speed during selected late-season/early-year weeks, minimum temperature in SMW 43, and the previous season's detrended yield anomaly. This is an association found by the modelling procedure; it does **not** establish that these variables independently cause changes in yield.
 
 ## Original-scale observed versus LOOCV-predicted yield
 
