@@ -1,5 +1,5 @@
 Model,R2,RMSE,MAE,Feature Selection,No. of features,Selected Features (Weather parameters with meteorological week)
-Stepwise Linear Regression,0.59**,1.231,0.948,SelectKBest (F-test),5,"WS (49, 52, 1)
+Multiple Linear Regression,0.59**,1.231,0.948,SelectKBest (F-test),5,"WS (49, 52, 1)
 MINT (43)
 Lag-1 Yield Anomaly"
 XGBoost,0.45**,1.424,1.165,Forward Selection,5,"WS (49, 52)
