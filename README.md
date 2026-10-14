@@ -1,4 +1,4 @@
-[README_results_based_updated.md](https://github.com/user-attachments/files/33398651/README_results_based_updated.md)
+
 # Potato Yield Modelling Using Weather Data — Mehsana, Gujarat
 
 ## Project overview
